@@ -1,0 +1,30 @@
+🛠️ Los 3 pasos para encender todo
+
+Terminal				Carpeta				Comando				¿Para qué sirve	?
+
+
+
+Terminal 1: backend -----> node server.js   
+El Puente: Conecta con tu SQL Server.
+
+Terminal 2: backend -----> ./ngrok http 3001
+El Túnel: Abre tu PC al mundo (Vercel).
+
+Terminal 3: frontend -----> npm run dev
+La Web Local: Para que tú veas los cambios.
+
+
+
+
+🚨 La "Regla de Oro" de NgrokComo usas la versión gratuita, cada vez que cierres la terminal de Ngrok y la vuelvas a abrir, la URL cambiará. Si eso pasa, debes hacer esto:
+
+Copia la nueva URL que te da Ngrok (ej: https://nueva-url.ngrok-free.dev).Pégala en tu archivo frontend/app/register/page.tsx, dentro del fetch (asegúrate de que mantenga el /api/register al final).
+Sube el cambio a GitHub para que Vercel se entere:
+PowerShell
+git add .
+git commit -m "update url"
+git push
+✅ Checklist de Verificación[ ] ¿El SQL Server Management Studio está abierto o el servicio está corriendo?[ ] 
+¿La Terminal 1 muestra el mensaje: 🚀 API PATAGONIA MU CORRIENDO?[ ] 
+¿La URL en el código coincide con la URL activa de Ngrok?[ ]
+¿Pusiste el header "ngrok-skip-browser-warning": "69420" para evitar bloqueos?
