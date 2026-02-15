@@ -4,13 +4,13 @@ import React from "react";
 
 export default function InfoPage() {
   const serverStats = [
-    { label: "Versión", value: "0.99b Classic" },
+    { label: "Versión", value: "Season 6 Ep3 Classic" },
     { label: "Experiencia", value: "9999x" },
-    { label: "Drops", value: "80%" },
-    { label: "Bug Bless", value: "On" },
-    { label: "Reset Nivel", value: "350" },
-    { label: "Puntos por Reset", value: "300" },
-    { label: "Borra Stats", value: "Sí" },
+    { label: "Drop rate", value: "30%" },
+    { label: "Bug Bless", value: "Off" },
+    { label: "Reset Nivel", value: "400" },
+    { label: "Quest Evo", value: "Si" },
+    { label: "Borra Stats", value: "No" },
     { label: "Máximo Stats", value: "32767" },
   ];
 

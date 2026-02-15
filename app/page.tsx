@@ -18,7 +18,7 @@ export default function Home() {
         
         <div className="relative z-10 max-w-5xl mx-auto">
           <span className="text-yellow-500 font-bold tracking-[0.3em] uppercase text-sm mb-4 block">
-            Version 0.99b - Hard Core Classic
+            Version Season 6 Ep3 - Medium Classic
           </span>
           <h1 className="text-6xl md:text-9xl font-black mb-6 leading-tight tracking-tighter italic text-white drop-shadow-2xl">
             LA LEYENDA <br /> <span className="text-yellow-600">CONTINÚA</span>

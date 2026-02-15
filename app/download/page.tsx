@@ -38,11 +38,11 @@ export default function DownloadPage() {
           <div>
             <h2 className="text-3xl font-black mb-4 uppercase italic tracking-tighter text-yellow-500">2. Cliente Full</h2>
             <p className="text-gray-400 mb-6 text-sm leading-relaxed">
-              Descarga el cliente completo de <strong>Patagonia MU v0.99b</strong>. No requiere instalación, solo descomprimir y jugar.
+              Descarga el cliente completo de <strong>Patagonia MU  Season 6 Ep3</strong>. No requiere instalación, solo descomprimir y jugar.
             </p>
             
             <ul className="text-xs text-gray-500 space-y-2 mb-6 uppercase font-bold">
-              <li>• Versión: 0.99b Classic</li>
+              <li>• Versión: S6 Ep3 Classic</li>
               <li>• Tamaño: ~200 MB</li>
               <li>• Host: Mediafire</li>
             </ul>
