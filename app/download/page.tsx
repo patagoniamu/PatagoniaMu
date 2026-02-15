@@ -19,8 +19,8 @@ export default function DownloadPage() {
             
             <div className="bg-black p-4 border-l-4 border-blue-600 mb-6">
               <p className="text-xs text-gray-500 uppercase font-bold mb-1">Datos de la Red:</p>
-              <p className="text-sm font-mono text-blue-400">Red: <span className="text-white">Lemon-Mu</span></p>
-              <p className="text-sm font-mono text-blue-400">Pass: <span className="text-white">21222324</span></p>
+              <p className="text-sm font-mono text-blue-400">Red: <span className="text-white">PatagoniaMu</span></p>
+              <p className="text-sm font-mono text-blue-400">Pass: <span className="text-white">PatagoniaMu</span></p>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export default function DownloadPage() {
           </div>
 
           <a 
-            href="https://www.mediafire.com/file/hhye43x0kye3dwk/PatagoniaMu.rar/file" 
+            href="https://www.mediafire.com/file/v12nex7uodxl2tt/PatagoniaMu.rar/file" 
             target="_blank" 
             className="w-full bg-yellow-600 hover:bg-yellow-500 text-black text-center font-black py-4 uppercase transition-all shadow-lg"
           >
